@@ -8,6 +8,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <RuntimeIdentifiers Condition="'$(Configuration)' != 'RuntimeStore'">win7-x86;win7-x64;linux-x64;osx-x64</RuntimeIdentifiers>
     <Configurations>Debug;Release;RuntimeStore</Configurations>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
